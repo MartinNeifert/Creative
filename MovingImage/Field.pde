@@ -61,7 +61,6 @@ public class Field{
        c += millis() - t;
   t = millis() - t;
   y++;
-  System.out.println(c/y + " " + t);
   }
  
   

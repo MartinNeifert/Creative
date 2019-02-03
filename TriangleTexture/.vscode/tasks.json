@@ -1,8 +1,6 @@
 {
-    "version": "0.1.0",
+    "version": "2.0.0",
     "command": "processing-java",
-    "isShellCommand": true,
-    "showOutput": "never",
     "args": [
         "--force",
         "--sketch=${workspaceRoot}",
