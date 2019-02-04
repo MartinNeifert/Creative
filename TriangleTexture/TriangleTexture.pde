@@ -14,20 +14,19 @@ void setup(){
       n++;
     }
   }  
-  
-  
-  
-  //fs[n] = new Field(0, 0, 500, 500, false, 5);
-  //fs[n] = new Field(400, 400, 400, 400, false);
 }
 
 void draw(){
   clear();
-  background(255,0,0);
+  background(0);
   for(int i = 0; i < fs.length; i++){
     fs[i].step();
   }
   for(int i = 0; i < fs.length; i++){
     fs[i].draw();
   }
+}
+
+void mouseClicked(){
+  setup();
 }
